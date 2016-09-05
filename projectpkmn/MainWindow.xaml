@@ -5,12 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:projectpkmn"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
+        Title="Pokemon Main Menu" Height="491.6" Width="756.2" Background="#FF494040" Foreground="#FF8E0505" OpacityMask="Black">
+    <Window.Effect>
+        <DropShadowEffect/>
+    </Window.Effect>
+    <Grid Margin="0,0,3.6,-0.4">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="163*"/>
-            <ColumnDefinition Width="355*"/>
+            <ColumnDefinition Width="121*"/>
+            <ColumnDefinition Width="508*"/>
+            <ColumnDefinition Width="121*"/>
         </Grid.ColumnDefinitions>
+        <Button x:Name="btnLogin" Content="Log in" HorizontalAlignment="Left" Margin="102,300,0,0" VerticalAlignment="Top" Width="87" Height="26" Grid.Column="1"/>
+        <Button x:Name="btnRegister" Content="Register" Grid.Column="1" Margin="354,300,59.8,136" RenderTransformOrigin="0.474,0.631"/>
+        <TextBox x:Name="tbMail" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="83,272,0,0" TextWrapping="Wrap" Text="E-mail" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbPass" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="83,236,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbUser" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="83,199,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbRegMail" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="342,272,0,0" TextWrapping="Wrap" Text="E-mail" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbRegPass" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="342,236,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbRegUser" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="342,199,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnPassForgot" Content="Forgot my Password" Grid.Column="1" HorizontalAlignment="Left" Margin="211,367,0,0" VerticalAlignment="Top" Width="136" Height="28"/>
 
     </Grid>
 </Window>
