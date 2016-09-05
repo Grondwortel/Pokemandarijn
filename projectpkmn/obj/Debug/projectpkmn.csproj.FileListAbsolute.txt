@@ -13,3 +13,5 @@ C:\Users\leonn\Documents\Pokemandarijn\projectpkmn\obj\Debug\projectpkmn.Propert
 C:\Users\leonn\Documents\Pokemandarijn\projectpkmn\obj\Debug\projectpkmn.csproj.GenerateResource.Cache
 C:\Users\leonn\Documents\Pokemandarijn\projectpkmn\obj\Debug\projectpkmn.exe
 C:\Users\leonn\Documents\Pokemandarijn\projectpkmn\obj\Debug\projectpkmn.pdb
+C:\Users\leonn\Documents\Pokemandarijn\projectpkmn\obj\Debug\pickYourOption.g.cs
+C:\Users\leonn\Documents\Pokemandarijn\projectpkmn\obj\Debug\pickYourOption.baml
