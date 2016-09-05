@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace projectpkmn.Properties
+namespace Pokiemon.Properties
 {
 
 
