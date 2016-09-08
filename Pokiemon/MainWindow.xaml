@@ -5,8 +5,66 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Pokiemon"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        Title="Login/Register" Height="443.742" Width="851.45">
+    <Grid Margin="0,0,3.4,-0.2" RenderTransformOrigin="0.5,0.5">
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="0.754"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <Rectangle Fill="#FF564949" HorizontalAlignment="Left" Height="127" Margin="603,269,0,0" Stroke="Black" VerticalAlignment="Top" Width="232" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.698"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+
+        <Rectangle Fill="#FFF4F4F4" HorizontalAlignment="Left" Height="142" Margin="5,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="231"/>
+        <TextBox x:Name="tbUser" HorizontalAlignment="Left" Height="23" Margin="10,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148"/>
+        <TextBox x:Name="tbMail" HorizontalAlignment="Left" Height="23" Margin="10,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148"/>
+        <TextBox x:Name="tbUser2" HorizontalAlignment="Left" Height="23" Margin="709,312,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox x:Name="tbPass2" HorizontalAlignment="Left" Margin="709,345,0,0" VerticalAlignment="Top" Width="120" Height="22"/>
+        <Label x:Name="label" Content="Register" HorizontalAlignment="Left" Margin="10,8,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy" Content="Login" HorizontalAlignment="Left" Margin="789,281,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy1" Content="Username" HorizontalAlignment="Left" Margin="640,309,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy3" Content="Password" HorizontalAlignment="Left" Margin="645,342,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy4" Content="Username" HorizontalAlignment="Left" Margin="163,36,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy5" Content="E-mail" HorizontalAlignment="Left" Margin="175,67,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy6" Content="Password" HorizontalAlignment="Left" Margin="159,95,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnRegister" Content="Submit" HorizontalAlignment="Left" Margin="10,122,0,0" VerticalAlignment="Top" Width="75" Click="btnRegister_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnLogin" Content="Submit" HorizontalAlignment="Left" Margin="754,372,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.5,0.5" Click="btnLogin_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                    <GradientStop Color="DimGray" Offset="0.413"/>
+                    <GradientStop Color="DimGray" Offset="0.487"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.849"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <PasswordBox x:Name="tbPass" HorizontalAlignment="Left" Margin="10,98,0,0" VerticalAlignment="Top" Width="148" Height="22"/>
+
     </Grid>
 </Window>
