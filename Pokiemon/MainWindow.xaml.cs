@@ -104,7 +104,16 @@ namespace Pokiemon
                         }
                         if (count == 1)
                         {
-                            MessageBox.Show("username and password is correct");
+                            // Create a new instance of the Form2 class
+                          //  SelectMenu Selecter = new SelectMenu();
+
+                            // Show the settings form
+                          //  Selecter.Show();
+
+                            this.Hide();
+                            var form2 = new SelectMenu();
+                            form2.Closed += (s, args) => this.Close();
+                            form2.Show();
                         }
                         
                         else

@@ -13,3 +13,5 @@ C:\Users\leonn\documents\visual studio 2015\Projects\Pokiemon\Pokiemon\obj\Debug
 C:\Users\leonn\documents\visual studio 2015\Projects\Pokiemon\Pokiemon\obj\Debug\Pokiemon.exe
 C:\Users\leonn\documents\visual studio 2015\Projects\Pokiemon\Pokiemon\obj\Debug\Pokiemon.pdb
 C:\Users\leonn\documents\visual studio 2015\Projects\Pokiemon\Pokiemon\bin\Debug\MySql.Data.dll
+C:\Users\leonn\documents\visual studio 2015\Projects\Pokiemon\Pokiemon\obj\Debug\SelectMenu.g.cs
+C:\Users\leonn\documents\visual studio 2015\Projects\Pokiemon\Pokiemon\obj\Debug\SelectMenu.baml
