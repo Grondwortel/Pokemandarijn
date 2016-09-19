@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Pokiemon"
         mc:Ignorable="d"
         Title="Login/Register" Height="443.742" Width="851.45">
-    <Grid Margin="0,0,3.4,-0.2" RenderTransformOrigin="0.5,0.5">
+    <Grid Margin="0,0,3.8,-0.6" RenderTransformOrigin="0.5,0.5">
         <Grid.RenderTransform>
             <TransformGroup>
                 <ScaleTransform/>
@@ -65,6 +65,7 @@
             </Button.RenderTransform>
         </Button>
         <PasswordBox x:Name="tbPass" HorizontalAlignment="Left" Margin="10,98,0,0" VerticalAlignment="Top" Width="148" Height="22"/>
+        <Button x:Name="button" Content="Password and Mail Reset" HorizontalAlignment="Left" Margin="10,379,0,0" VerticalAlignment="Top" Width="190" Height="26" Click="button_Click"/>
 
     </Grid>
 </Window>

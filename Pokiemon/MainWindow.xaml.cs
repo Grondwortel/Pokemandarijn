@@ -104,11 +104,7 @@ namespace Pokiemon
                         }
                         if (count == 1)
                         {
-                            // Create a new instance of the Form2 class
-                          //  SelectMenu Selecter = new SelectMenu();
-
-                            // Show the settings form
-                          //  Selecter.Show();
+                           
 
                             this.Hide();
                             var form2 = new SelectMenu();
@@ -141,6 +137,13 @@ namespace Pokiemon
 
             }
 
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+           
+            browser settingsForm = new browser();          
+            settingsForm.Show();
         }
     }
 }

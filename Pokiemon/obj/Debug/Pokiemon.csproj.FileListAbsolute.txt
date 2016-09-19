@@ -15,3 +15,22 @@ C:\Users\leonn\documents\visual studio 2015\Projects\Pokiemon\Pokiemon\obj\Debug
 C:\Users\leonn\documents\visual studio 2015\Projects\Pokiemon\Pokiemon\bin\Debug\MySql.Data.dll
 C:\Users\leonn\documents\visual studio 2015\Projects\Pokiemon\Pokiemon\obj\Debug\SelectMenu.g.cs
 C:\Users\leonn\documents\visual studio 2015\Projects\Pokiemon\Pokiemon\obj\Debug\SelectMenu.baml
+C:\Users\leonn\Documents\Pokemandarijn\Pokiemon\bin\Debug\Pokiemon.exe.config
+C:\Users\leonn\Documents\Pokemandarijn\Pokiemon\obj\Debug\Pokiemon.exe
+C:\Users\leonn\Documents\Pokemandarijn\Pokiemon\obj\Debug\Pokiemon.pdb
+C:\Users\leonn\Documents\Pokemandarijn\Pokiemon\bin\Debug\Pokiemon.exe
+C:\Users\leonn\Documents\Pokemandarijn\Pokiemon\bin\Debug\Pokiemon.pdb
+C:\Users\leonn\Documents\Pokemandarijn\Pokiemon\bin\Debug\MySql.Data.dll
+C:\Users\leonn\Documents\Pokemandarijn\Pokiemon\obj\Debug\Pokiemon.csprojResolveAssemblyReference.cache
+C:\Users\leonn\Documents\Pokemandarijn\Pokiemon\obj\Debug\browser.g.cs
+C:\Users\leonn\Documents\Pokemandarijn\Pokiemon\obj\Debug\MainWindow.g.cs
+C:\Users\leonn\Documents\Pokemandarijn\Pokiemon\obj\Debug\SelectMenu.g.cs
+C:\Users\leonn\Documents\Pokemandarijn\Pokiemon\obj\Debug\App.g.cs
+C:\Users\leonn\Documents\Pokemandarijn\Pokiemon\obj\Debug\Pokiemon_MarkupCompile.cache
+C:\Users\leonn\Documents\Pokemandarijn\Pokiemon\obj\Debug\Pokiemon_MarkupCompile.lref
+C:\Users\leonn\Documents\Pokemandarijn\Pokiemon\obj\Debug\browser.baml
+C:\Users\leonn\Documents\Pokemandarijn\Pokiemon\obj\Debug\MainWindow.baml
+C:\Users\leonn\Documents\Pokemandarijn\Pokiemon\obj\Debug\SelectMenu.baml
+C:\Users\leonn\Documents\Pokemandarijn\Pokiemon\obj\Debug\Pokiemon.g.resources
+C:\Users\leonn\Documents\Pokemandarijn\Pokiemon\obj\Debug\Pokiemon.Properties.Resources.resources
+C:\Users\leonn\Documents\Pokemandarijn\Pokiemon\obj\Debug\Pokiemon.csproj.GenerateResource.Cache
