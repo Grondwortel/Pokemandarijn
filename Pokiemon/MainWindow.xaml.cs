@@ -39,6 +39,9 @@ namespace Pokiemon
 
         private void btnRegister_Click(object sender, RoutedEventArgs e)
         {
+
+
+
             if (tbUser.Text.Length > 7 || tbPass.Password.Length > 8)
             {
                 if (tbUser.Text != "Username" || tbPass.Password != "Password")
